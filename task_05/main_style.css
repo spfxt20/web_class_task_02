@@ -1,0 +1,247 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+}
+
+.icon-style {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.icon-style:hover {
+    color: rgb(161, 255, 185);
+    cursor: pointer;
+}
+
+
+.section-1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+}
+
+.section-1 .div-1 {
+    text-align: left;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .div-1 .text-title {
+    color: white;
+    margin: 10px;
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.section-1 .div-1 .text-title:hover{
+    color: rgb(161, 255, 185);
+    cursor: pointer;
+}
+
+.section-1 .div-2 {
+    width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .div-2 .search-bar {
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    border-top: solid 1px rgb(134, 134, 134);
+    border-bottom: solid 1px rgb(134, 134, 134);
+    border-left: solid 1px rgb(134, 134, 134);
+    border-right: none;
+    outline-style: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-1 .div-2 .search-bar:hover {
+    border-top: solid 1px rgb(161, 255, 185);
+    border-bottom: solid 1px rgb(161, 255, 185);
+    border-left: solid 1px rgb(161, 255, 185);
+    border-right: solid 1px rgb(161, 255, 185);
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.section-1 .div-2 .search-button {
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin: 0px;
+    font-size: 15px;
+    background-color: rgb(134, 134, 134);
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid 1px rgb(134, 134, 134);
+}
+
+.section-1 .div-2 .search-button:hover {
+    color: rgb(161, 255, 185);
+    background-color: rgb(51, 46, 46);
+    cursor: pointer;
+    border: solid 1px rgb(134, 134, 134);
+}
+
+.section-1 .div-3 {
+    text-align: right;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.section-2 {
+    width: 100%;
+    display: flex;
+}
+
+.section-2 .div-1 .nav-item {
+    width: 150px;
+    height: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2 .div-1 .nav-item:hover {
+    color: rgb(161, 255, 185);
+    background-color: rgb(155, 155, 155);
+    cursor: pointer;
+}
+
+.section-2 .div-1 .nav-icon{
+    color: rgb(151, 216, 189);
+    font-size: 18px;
+    margin: 5px;
+}
+
+.section-2 .div-1 .nav-text {
+    padding: 10px;
+    color: white;
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.section-2 .div-1 .person-item {
+    width: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+    margin-left: 2px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-second-title-text {
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    color: rgb(126, 146, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.section-2 .div-1 .person-img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-2 .div-1 .nav-text{
+    width: 100%;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.section-2 .div-2 {
+    width: 100%;
+}
+
+.poster-item {
+    margin: 10px;
+    padding: 5px;
+    width: 45%;
+    background-color: rgb(78, 78, 78);
+    border-radius: 10px;
+}
+
+.poster-item-table {
+    height: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.poster-image {
+    border-radius: 8px;
+}
+
+.poster-text-2 {
+    color: aquamarine;
+}
+
+.poster-select {
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(47, 161, 123);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.poster-select:hover {
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
