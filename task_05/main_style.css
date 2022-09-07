@@ -22,12 +22,16 @@ body {
     cursor: pointer;
 }
 
-
 .section-1 {
     width: 100%;
     height: 50px;
     background-color: rgb(78, 78, 78);
     display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
 .section-1 .div-1 {
@@ -119,13 +123,34 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-2 {
     width: 100%;
     display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.section-2 .div-1 {
+    position: fixed;
+
 }
 
 .section-2 .div-1 .nav-item {
-    width: 150px;
+    width: 180px;
     height: 45px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -161,7 +186,7 @@ body {
 }
 
 .section-2 .div-1 .person-item {
-    width: 150px;
+    width: 180px;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
@@ -206,6 +231,10 @@ body {
 
 .section-2 .div-2 {
     width: 100%;
+    position: relative;
+    left: 50px;
+    margin-left: 180px;
+    padding: 0px 10px;
 }
 
 .poster-item {
